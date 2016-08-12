@@ -14,4 +14,3 @@ namespace COMP2007_S2016_Lesson12B_final.ViewModels
         public virtual  int DeleteId { get; set; }
     }
 }
-}

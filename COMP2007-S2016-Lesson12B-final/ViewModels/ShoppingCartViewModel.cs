@@ -12,4 +12,3 @@ namespace COMP2007_S2016_Lesson12B_final.ViewModels
         public virtual decimal CartTotal { get; set; }
     }
 }
-}
