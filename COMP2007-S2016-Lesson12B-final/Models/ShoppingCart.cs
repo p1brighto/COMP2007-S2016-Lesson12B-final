@@ -96,7 +96,7 @@ namespace COMP2007_S2016_Lesson12B_final.Models
         public int GetCount()
         {
             // Get the count of each item in the cart and sum them up
-            int? count = (from cartItems in storeDB.Carts
+                int? count = (from cartItems in storeDB.Carts
                           where cartItems.CartId == ShoppingCartId
                           select (int?)cartItems.Count).Sum();
             // Return 0 if all entries are null

@@ -18,6 +18,7 @@
                 $('#cart-total').text(data.CartTotal);
                 $('#update-message').text(data.Message);
                 $('#cart-status').text('Cart (' + data.CartCount + ')');
+                location.reload();
             });
         }
     });
